@@ -1312,8 +1312,8 @@ function SummerHtmlImageMapCreator() {
 	function Helper(node, x, y) {
 		this.helper = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
 		this.helper.setAttribute('class', 'helper');
-		this.helper.setAttribute('height', 5);
-		this.helper.setAttribute('width', 5);
+		this.helper.setAttribute('height', 3);
+		this.helper.setAttribute('width', 3);
 		this.helper.setAttribute('x', x-3);
 		this.helper.setAttribute('y', y-3);
 		node.appendChild(this.helper);

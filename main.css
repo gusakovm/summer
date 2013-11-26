@@ -507,7 +507,7 @@ a:link, a:visited {
 #svg rect.helper {
     fill: #FFF;
     stroke: #000;
-    stroke-width: 2px;
+    stroke-width: 0px;
 }
 #svg rect.helper:hover {
     fill: #F00; 
